@@ -1,7 +1,6 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container-fluid">
+    <img src="https://i.postimg.cc/Hx6j4fYm/vue-P-background.png" alt="background" loading="lazy">
   </div>
 </template>
 
