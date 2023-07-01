@@ -3,6 +3,7 @@
   <main class="contaner-fluid">
     <NavbarComp />
     <FooterComp />
+    <router-view></router-view>
   </main>
 </div>
 </template>
