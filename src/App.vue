@@ -9,12 +9,17 @@
 </template>
 <script>
   import NavbarComp from './components/NavbarComp.vue'
+  import HomeView from './components/HomeView.vue'
+  import AboutView from './components/AboutView.vue'
   import FooterComp from './components/FooterComp.vue'
    export default {
     name: 'App',
     components: {
       NavbarComp,
+      AboutView,
+      HomeView,
       FooterComp
+     
     }
     
         
