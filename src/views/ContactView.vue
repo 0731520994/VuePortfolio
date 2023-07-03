@@ -1,79 +1,113 @@
-
 <template>
-    <div class= "container-fluid">
-        <div class="container-right">
-            <div class="icons">
-                <a href="">
-                 img
-                <h2>Address</h2>
-            </div>
-            <div class="icons">
-                <a href="">
-                 img
-                <h2>Email</h2>
-            </div>
-            <div class="icons">
-                <a href="">
-                  img
-                <h2>Call</h2>
-            </div>
-            <div class="icons">
-                <a href="">
-                    img
-                <h2>WhatsApp</h2>
-            </div>
+    <h1>contact</h1>
+    <div class="container-fluid">
+      <div class="container-right">
+        <div class="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <h5>11640 ndwana Crescent Philippi, 7750 </h5>
         </div>
-
-    <div class="container-right">
+        <div class="email">
+            <i class="bi bi-envelope-open-heart"></i>
+            <h5>mongidlanjwa@gmail.com</h5>
+        </div>
+        <div class="call">
+            <i class="bi bi-telephone-fill"></i>
+            <h5>0731520994/ 0639118613</h5>
+        </div>
+        <div class="WhatsApp">
+            <i class="bi bi-whatsapp"></i>
+            <h5>0731520994</h5>
+        </div>
+      </div>
+  
+      <div class="container-left">
         <div class="contact-me">
-            <h1>contact</h1>
+          <form>
+            <div class="row mb-3">
+              <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-10">
+                <input type="name" class="form-control" id="inputName3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inpuEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for="inputSubject3" class="col-sm-2 col-form-label">subject</label>
+              <div class="col-sm-10">
+                <input type="subject" class="form-control" id="inputSubject3">
+              </div>
+            </div>
+
+            <div class="row mb-3">
+              <label for="inputMessage3" class="col-sm-2 col-form-label">Message</label>
+              <div class="col-sm-10">
+                <textarea type="message" class="form-control" id="inputMessage3" row="8"></textarea>
+              </div>
+            </div>
+           
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+
+
         </div>
+      </div>
     </div>
-</template>
+  </template>
+  
+  <script>
+  export default {
+    name: 'ContactView'
+  }
+  </script>
+  
+  <style scoped>
+  .container-fluid {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(27, 27, 27);
+    width: 70%;
+    border-radius: 2%;
+   
+ 
+  
+  }
+  
+  .container-right {
+    background-color: #C3966C;
+    padding: 3%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 50%;
 
-<script>
-    export default {
-        name: ContactView
-    }
-</script>
-
-<style lang="scss" scoped>
-
-.container-fluid{
-    display: flex,
-    flex-direction: row,
-    background-color: black
-}
-
-.container-right{
-    background-color: brown,
-    padding: 3%,
-    width: 30%
-}
-
-.container-left{
-    background-color: black,
-    margin: 2.5%,
-    width: 70%
-}
-
-
-.link a{
-    text-decoration: none,
-    color: black,
-    font-size: 10px
-}
-
-
-.link img{
-    height: 2rem 
-}
-
-.contact-me{
-    text-align: left
-}
-
-.main-container{
-    border-radius: 25px
-}
-</style>
+  }
+  
+  .container-left {
+    background-color:  rgb(27, 27, 27);
+    margin: 2.5%;
+    width: 40%;
+  }
+  
+  .icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+  }
+  
+  .icons img {
+    height: 2rem;
+  }
+  
+  .contact-me {
+    text-align: left;
+  }
+  
+  .main-container {
+    border-radius: 25px;
+  }
+  </style>
+  
