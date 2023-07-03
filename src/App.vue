@@ -2,7 +2,7 @@
   <div>
     <main class="container-fluid">
       <NavbarComp />
-      <router-view></router-view>
+      <router-view />
       <FooterComp />
     </main>
   </div>
@@ -12,11 +12,13 @@
 import NavbarComp from './components/NavbarComp.vue'
 import FooterComp from './components/FooterComp.vue'
 
+
 export default {
   name: 'App',
   components: {
     NavbarComp,
     FooterComp
+
   }
 }
 </script>
