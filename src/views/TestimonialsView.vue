@@ -7,7 +7,7 @@
             <div class="card" v-for="testimonial in testimonials" :key="testimonial.id">
               <img :src="testimonial.image" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">{{ testimonial.name }}</h5>
+                <h6 class="card-title">{{ testimonial.name }}</h6>
                 <p class="card-text">{{ testimonial.description }}</p>
               </div>
               <div class="card-footer">
