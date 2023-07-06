@@ -1,5 +1,5 @@
 <template>
-    <h1>contact</h1>
+    <h2>contact</h2>
     <div class="container-fluid">
       <div class="container-right">
         <div class="address">
@@ -69,9 +69,11 @@
   .container-fluid {
     display: flex;
     flex-direction: row;
-    background-color: rgb(27, 27, 27);
-    width: 70%;
+    background-color: white;
+    width: 100%;
     border-radius: 2%;
+    Border: 2% solid #C3966C
+   
    
  
   
@@ -80,16 +82,18 @@
   .container-right {
     background-color: #C3966C;
     padding: 3%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 60%;
+    height: 60%;
 
   }
   
   .container-left {
-    background-color:  rgb(27, 27, 27);
-    margin: 2.5%;
+    background-color:  white;
+    margin: 3%;
     width: 40%;
+    Border: 2% solid #C3966C
   }
   
   .icons a {

@@ -26,6 +26,14 @@
     margin-right: 10px;
     color: black
   }
-  
+
+  .container-fluid{
+    color: #C3966C;
+    background-color:#C3966C
+  }
+
+  .lead{
+text-decoration: none;
+  }
   </style>
   
