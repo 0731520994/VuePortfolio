@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-      <img src="" alt="logo" loading="lazy" width="45px" height="40px">
+      <img src="https://i.postimg.cc/4xdr9dJC/Main-Logo-removebg-preview.png" alt="logo" loading="lazy" class="logo">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,6 +40,10 @@ export default {
 
 
 <style scoped>
+.logo{
+  width: 120px;
+  height: 80px;
+}
 h3 {
   margin: 40px 0 0;
 }

@@ -9,7 +9,7 @@
   </div>
 
   <div class="skills-section">
-    <h3>Skills</h3>
+    <h2>Skills</h2>
       <div class="card-group">
         <div class="card">
           <img src="https://i.postimg.cc/j2RBH9Bz/Bootstrap-logo-svg-2.png" class="card-img-top img-fluid" alt=" Bootstrap logo">

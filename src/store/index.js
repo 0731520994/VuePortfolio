@@ -26,7 +26,7 @@ export default createStore({
     async fetchResume(context) {
       try {
         let res = await fetch(dataUrl);
-        let resume = await res.json();
+        let {resume} = await res.json();
         if (resume) {
           context.commit('setResume', resume);
         }
