@@ -26,6 +26,18 @@
     margin-right: 10px;
     color: black
   }
+<<<<<<< HEAD
   
+=======
+
+  .container-fluid{
+    color: #C3966C;
+    background-color:#C3966C
+  }
+
+  .lead{
+text-decoration: none;
+  }
+>>>>>>> parent of 349627a (update)
   </style>
   

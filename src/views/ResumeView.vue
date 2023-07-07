@@ -37,4 +37,39 @@ export default {
 
 <style scoped>
 
+<<<<<<< HEAD
+=======
+
+
+.card{
+  border-radius: 50%;
+  margin: 3%;
+  margin-left: 40%;
+  box-shadow: 6px 10px #C3966C;
+ 
+}
+
+h6{
+  text-decoration: 2px underline #C3966C;
+}
+
+h5{
+  color:  black;
+  text-shadow: 8px 4px 2px #C3966C;
+}
+
+.table-row {
+  border-bottom: 1px solid #000;
+}
+.table-row:last-child {
+  border-bottom: none;
+}
+.table-col {
+  padding: 10px;
+  border-right: 1px solid #000;
+}
+.table-col:last-child {
+  border-right: none;
+}
+>>>>>>> parent of 349627a (update)
 </style>

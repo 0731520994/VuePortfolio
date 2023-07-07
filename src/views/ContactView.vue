@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
     <h1>contact</h1>
+=======
+    <h2>contact</h2>
+>>>>>>> parent of 349627a (update)
     <div class="container-fluid">
       <div class="container-right">
         <div class="address">
