@@ -28,12 +28,23 @@
   }
 
   .container-fluid{
-    color: #C3966C;
+   
     background-color:#C3966C
   }
 
-  .lead{
-text-decoration: none;
+p{
+  color:black
+}
+
+  body {
+    height: 100%;
+  }
+  
+  footer {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+ 
   }
   </style>
   

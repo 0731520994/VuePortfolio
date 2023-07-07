@@ -140,4 +140,7 @@ h5{
 .table-col:last-child {
   border-right: none;
 }
+
+
+
 </style>
