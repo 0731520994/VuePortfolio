@@ -21,6 +21,7 @@
 
 h3 {
     margin: 40px 0 0;
+    color: black;
   }
   ul {
     list-style-type: none;
@@ -49,23 +50,105 @@ h3 {
     color: #C3966C;
   }
 
+  
+.logo-img {
+  width: 100px; 
+  height: auto; 
+}
+
 
   /*Home*/
 
   .container-fluid {
     position: relative;
+    max-width: 100%;
   }
   
   .image-container {
     position: relative;
   }
   
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
   .text-container {
     position: absolute;
-    top: 35%;
-    left: 45%;
+    top: 42%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  h2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    animation: colorAnimation 5s infinite alternate;
+    padding: 2rem
+  }
+  
+  @keyframes colorAnimation {
+    0% {
+      color: white;
+    }
+    50% {
+      color: black;
+    }
+    100% {
+      color: white;
+    }
+  }
+  .modal-button {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%, -50%);
   }
 
+  .modal-button {
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    background-color: #C3966C;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Media Queries */
+
+  @media (width<999px) {
+    .text-container {
+    top: 30%;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  .container-fluid {
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 42%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
   h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3rem;
@@ -83,31 +166,26 @@ h3 {
       color: white;
     }
   }
+
   
-
-p{
-    text-decoration: underline 6% white;
-    color: #000;
-}
-
-h1{
-    color:#000;
-
-    
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
+  /* Media Queries */
+  @media (width<800px) {
+    .text-container {
+      top: 40%;
+      left: 60%
+    }
+  
+    h2 {
+      font-size: 3rem;
+    }
   }
   
   .modal-button {
-    position: absolute;
-    top: 70%;
-    left: 65%;
-    transform: translate(-50%, -50%);
+  top: 70%;
+  left: 60%
   }
 
+<<<<<<< HEAD
   .modal-button {
     position: absolute;
  
@@ -119,3 +197,5 @@ h1{
   }
   
   
+=======
+>>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46

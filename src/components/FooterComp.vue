@@ -27,6 +27,7 @@
     color: black
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 
@@ -39,5 +40,27 @@
 text-decoration: none;
   }
 >>>>>>> parent of 349627a (update)
+=======
+
+  .container-fluid{
+   
+    background-color:#C3966C
+  }
+
+p{
+  color:black
+}
+
+  body {
+    height: 100%;
+  }
+  
+  footer {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+ 
+  }
+>>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
   </style>
   

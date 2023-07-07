@@ -1,7 +1,6 @@
 <template>
 
   <div class="container-fluid">
-    <h2>About</h2>
     <img src="https://i.postimg.cc/GpYRNcBR/1641824566516.jpg" alt="profile" >
     <p>I am a communication-savvy individual who loves challenges and works hard to complete tasks. I enjoy learning new skills and thrive in a challenging environment.</p>
     <p>As the qualification, I have Btech in Public relations with majors in Media Studies, Communications, Marketing and Public Relations. What drove me to coding is the fact that technology and the 4IR is changing daily and the only way to stay up to date is learning new skills in an environment that values change with technology and time. </p>
@@ -9,7 +8,7 @@
   </div>
 
   <div class="skills-section">
-    <h3>Skills</h3>
+    <h2>Skills</h2>
       <div class="card-group">
         <div class="card">
           <img src="https://i.postimg.cc/j2RBH9Bz/Bootstrap-logo-svg-2.png" class="card-img-top img-fluid" alt=" Bootstrap logo">
