@@ -1,16 +1,12 @@
 <template>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-6">
-
-      </div>
-      <div class="col-6">
+    <div class="image-container">
+      <img src="https://i.postimg.cc/vHrRDftM/Home-2.png" alt="background" loading="lazy">
+      <div class="text-container">
         <h1>Aspiring</h1>
         <h2>Full-Stack Web Developer</h2>
         <p>Mongikazi Dlanjwa</p>
       </div>
-<<<<<<< HEAD
-=======
       <!-- Modal button -->
       <button class="btn btn-primary modal-button" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Click😊</button>
     </div>
@@ -42,13 +38,14 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          Hide this modal and show the first with the button below.
+          <p>Age:25</p>
+          <p>Nationality: South African</p>
+          <p>Availability: Immediately</p>
         </div>
         <div class="modal-footer">
           <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
         </div>
       </div>
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
     </div>
   </div>
  
@@ -65,20 +62,6 @@ export default {
 }
 </script>
 <style scoped>
-<<<<<<< HEAD
-.container-fluid{
-  background-image: url('https://i.postimg.cc/vHrRDftM/Home-2.png');
-  border: solid #C3966C;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 55rem;
-}
-.col-6{
-  text-align: center;
-  margin-top: 25%;
-}
-</style>
-=======
 h1{
   color: black;
 }
@@ -91,7 +74,7 @@ p{
   color:black;
 }
 
- /* Media Queries */
+ 
  @media (width<800px) {
   .text-container {
     top: 40%;
@@ -103,4 +86,3 @@ p{
   }
 }
 </style>
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46

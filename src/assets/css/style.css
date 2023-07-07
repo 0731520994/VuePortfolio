@@ -139,6 +139,7 @@ h3 {
   .image-container img {
     max-width: 100%;
     height: auto;
+    padding: 3%;
   }
   
   .text-container {
@@ -185,7 +186,7 @@ h3 {
   left: 60%
   }
 
-<<<<<<< HEAD
+
   .modal-button {
     position: absolute;
  
@@ -197,5 +198,3 @@ h3 {
   }
   
   
-=======
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46

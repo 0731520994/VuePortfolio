@@ -61,7 +61,7 @@
           </div>
         </div>
       </div>
-      <a class="btn btn-primary" href="#" role="button">CV</a>
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/mongikazi-dlanjwa-5641b8174/overlay/1635518653216/single-media-viewer?type=DOCUMENT&profileId=ACoAAClSABwBhb8G6RKVsD2whQfTz-NcNTWcqSM&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3A9hGtKjRTasyA3XMpSvDA%3D%3D" role="button">Download CV</a>
    </div>
     
     
@@ -117,5 +117,8 @@ h3{
   align-self: center;
 }
 
+.btn{
+margin:3%
+}
 </style>
 

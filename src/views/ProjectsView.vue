@@ -1,35 +1,20 @@
 <template>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  <h2>Projects</h2>
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <div class="card-group">
-=======
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col">
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
           <div class="card project-card" v-for="project in projects" :key="project.id">
             <img :src="project.image" class="card-img-top img-fluid" alt="">
             <div class="card-body">
               <h5 class="card-title">{{ project.name }}</h5>
-              <a :href="project.url" class="btn btn-primary">Click</a>
+              <a :href="project.url" class="btn btn-primary ">Netlify</a>
+              <a :href="project.url1" class="btn btn-primary">Github</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-<<<<<<< HEAD
-  </div>
-  
->>>>>>> parent of 349627a (update)
-=======
  
   
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
   
 </template>
 
@@ -47,42 +32,20 @@ export default {
 </script>
 
 <style scoped>
-.btn {
-
-<<<<<<< HEAD
-background-color: #C3966C;
-color: white;
-font-weight: bold;
+.container-fluid{
+  width:60%
 }
-
-<<<<<<< HEAD
-=======
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  border-radius: 2%;
+  border: 2% solid #C3966C;
+  margin: 2rem
+}
 .project-card {
-  width: 50%; 
-  border:none
-
-}
-
-.card-img-top {
-  width: 10rem;
-  aspect-ratio: 4/4;
-  object-fit: cover;
-  object-position: center;
-}
-
-.card-title{
-text-align: start;
-}
-
-.btn {
-align-self: start;
-align-content: start;
-float: left;
-}
->>>>>>> parent of 349627a (update)
-=======
-.project-card {
-  width: 30%; 
+  width: 45%; 
   border: 2px solid #C3966C;
   margin: 1rem; 
   display: inline-block;
@@ -93,7 +56,7 @@ float: left;
 
 .card-img-top {
   width: 100%;
-  aspect-ratio: 2/1;
+  aspect-ratio: 3/2;
   object-position: center;
   
 }
@@ -106,8 +69,8 @@ float: left;
   align-self: center;
   align-content: center;
   float: center;
+  margin:3%
 }
 
 
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
 </style>

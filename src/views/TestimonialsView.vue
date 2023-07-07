@@ -1,10 +1,4 @@
 <template>
-<<<<<<< HEAD
-      <h2>Testimonials</h2>
-    <div>
-      <h1>Testimonials</h1>
-=======
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
       <div class="container-fluid">
         <div class="row">
           <div class="card-group">

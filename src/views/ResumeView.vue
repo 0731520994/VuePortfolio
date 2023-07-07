@@ -108,13 +108,6 @@ export default {
 
 <style scoped>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
-
-
 .card{
   border-radius: 50%;
   margin: 3%;
@@ -145,11 +138,4 @@ h5{
 .table-col:last-child {
   border-right: none;
 }
-<<<<<<< HEAD
->>>>>>> parent of 349627a (update)
-=======
-
-
-
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
 </style>

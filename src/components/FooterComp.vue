@@ -26,10 +26,6 @@
     margin-right: 10px;
     color: black
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-  
-=======
 
   .container-fluid{
     color: #C3966C;
@@ -39,8 +35,6 @@
   .lead{
 text-decoration: none;
   }
->>>>>>> parent of 349627a (update)
-=======
 
   .container-fluid{
    
@@ -61,6 +55,5 @@ p{
     width: 100%;
  
   }
->>>>>>> 0630e40b0b879820d6dc645a39d5f962a2a6bf46
   </style>
   
