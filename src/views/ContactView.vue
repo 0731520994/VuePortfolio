@@ -1,5 +1,4 @@
 <template>
-    <h2>contact</h2>
     <div class="container-fluid">
       <div class="container-right">
         <div class="address">
@@ -22,37 +21,33 @@
   
       <div class="container-left">
         <div class="contact-me">
-          <form>
+          <form action="https://formspree.io/f/mrgwgeav" method="POST">
             <div class="row mb-3">
               <label for="inputName3" class="col-sm-2 col-form-label">Name</label>
               <div class="col-sm-10">
-                <input type="name" class="form-control" id="inputName3">
+                <input type="text" class="form-control" id="inputName3" name="name" required>
               </div>
             </div>
             <div class="row mb-3">
               <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
               <div class="col-sm-10">
-                <input type="email" class="form-control" id="inpuEmail3">
+                <input type="email" class="form-control" id="inputEmail3" name="_replyto" required>
               </div>
             </div>
             <div class="row mb-3">
-              <label for="inputSubject3" class="col-sm-2 col-form-label">subject</label>
+              <label for="inputSubject3" class="col-sm-2 col-form-label">Subject</label>
               <div class="col-sm-10">
-                <input type="subject" class="form-control" id="inputSubject3">
+                <input type="text" class="form-control" id="inputSubject3" name="subject" required>
               </div>
             </div>
-
             <div class="row mb-3">
               <label for="inputMessage3" class="col-sm-2 col-form-label">Message</label>
               <div class="col-sm-10">
-                <textarea type="message" class="form-control" id="inputMessage3" row="8"></textarea>
+                <textarea class="form-control" id="inputMessage3" name="message" rows="8" required></textarea>
               </div>
             </div>
-           
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-
-
 
         </div>
       </div>
@@ -104,6 +99,7 @@
   
   .icons img {
     height: 2rem;
+    color:black
   }
   
   .contact-me {
@@ -112,6 +108,14 @@
   
   .main-container {
     border-radius: 25px;
+  }
+
+  .bi{
+    color: black
+  }
+
+  h5{
+    color:black
   }
   </style>
   

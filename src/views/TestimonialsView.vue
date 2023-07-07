@@ -1,5 +1,4 @@
 <template>
-      <h2>Testimonials</h2>
       <div class="container-fluid">
         <div class="row">
           <div class="card-group">
